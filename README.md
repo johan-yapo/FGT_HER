@@ -16,7 +16,7 @@ To construct the FGT surface (Figure 1), first the unit cell of FGT was obtained
 
 To calculate the Gibbs free energy (ΔG<sub>H</sub>) for H adsorption to predict the HER activity of the different HER active sites on the surface the equation ΔG<sub>H</sub> = ΔE<sub>H</sub> + ΔE<sub>ZPE</sub> – TΔS  was used, where ΔE<sub>H</sub> is the H-surface binding energy computed from DFT, ΔEZPE is the zero-point energy difference between adsorbed H and free H2 and TΔS are the temperature and entropy contribution terms. One thing to note here is that ΔEZPE is usually very small, between 0.01 to 0.05 eV(5) which is less than to around the chemical accuracy target of 1 kcal∙mol 1 or 0.043 eV that is desired for ab initio computational methods, so we have chosen to neglect it here and the equation can be simplified to 〖ΔG〗_H  = ΔE_H  – TΔS. TΔS is calculated with the approximation TΔS ≈  (1 )/2 TS°(H2), where T = 298.15 K  and S°(H<sub>2</sub>) = 130.7 J∙〖mol〗^(-1) K^(-1). Lastly, the equation used to solve for the binding energy of hydrogen ΔE<sub>H</sub> was ΔE<sub>H</sub> = E[surface + nH]-E[surface+(n-1)H]-1/2 E[H<sub>2</sub>]. Here E[surface + nH] and E[surface+(n-1)H] are the total energies of the surface with n and n-1 hydrogen atoms adsorbed on it respectively and calculated using VASP, and 1/2 E[H_2] is half of the energy of one gas phase, diatomic hydrogen molecule.
 
-![image](https://github.com/fgt_HER/fgt_surface-slab.png)
+![Image](https://github.com/user-attachments/assets/d5f5e955-8931-405c-9334-56290b6ece62)
 
 **Figure 1.** Surface slab model of FGT used for DFT calculations.
 
