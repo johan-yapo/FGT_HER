@@ -1,4 +1,4 @@
-# Linux Files for the Surface-Slab Models of Fe<sub>3</sub>GeTe<sub>2</sub> for computing the Gibb's Free Energy of Hydrogen Adsorption 
+# Input Files for the Surface-Slab Models of Fe<sub>3</sub>GeTe<sub>2</sub> for computing the Gibb's Free Energy of Hydrogen Adsorption 
 
 ## 1) Cloning the Repository
 
